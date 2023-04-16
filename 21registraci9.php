@@ -27,7 +27,7 @@
         }
         catch(Exception $e)
         {
-            echo 'Данный логин уже занят';
+            echo 'Login is already takes';
             
 
         }

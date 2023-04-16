@@ -39,7 +39,7 @@
     <main class = "maintxt">
         <div>
                 <form action="41AddTask.php" method="post">
-            <input name ="task" autocomplete="off" class="AddInp"/>
+            <input name ="task" autocomplete="off" style="border: 0;border-radius: 3px;" class="AddInp"/>
             <input type="submit" value="Добавить дело" class="button" name="AddButton" />
             <br>
         </form>
@@ -66,9 +66,9 @@
                                         '
                                         .$row['task'].
                                         ' 
-                                        <a href ="43ChangeTask.php?id='.$row['id'].'?task='.$row['task'].'"> <input type="button" value="&#9998"/> </a> 
+                                        <a href ="43ChangeTask.php?id='.$row['id'].'&task='.$row['task'].'"><input type="button" style="border: 0;border-radius: 4px;" value="&#9998"/></a> 
                                         
-                                        <a href ="42DeleteTask.php?id='.$row['id'].'"><input type="button" value="&#128465"/></a> 
+                                        <a href ="42DeleteTask.php?id='.$row['id'].'"><input type="button" style="border: 0;border-radius: 4px;"value="&#128465"/></a> 
                                         
                                     </div>
                                     

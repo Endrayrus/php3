@@ -23,8 +23,8 @@
         }
         else
         {
-            //echo 'Такого пользователя не сущетсвует';
-            header("Location: 3aut.php");
+            echo 'Invalid user';
+            // header("Location: 3aut.php");
         }
     }
 

@@ -1,91 +1,50 @@
-header{
-	position: fixed;
-	top: 0;
-
-	
-
-}
-nav{
-	margin-top: 90px;
-	width: 100%;	
-	+background-color: #989898;
-	font-size: 16px;
-	
-}
-
-main{
-	+margin-top: 90px;
-	width: 100%;
-	+background-color: #878787;
-}
-
-footer{
-	position: fixed;
-	bottom: 0;
-	+background-color: #696969;
-	width:100%;
-	height: 90px;
-}
-
-.borda{
-	border: solid orange;
-	width: 100%;
-}
-
-
-.rug{
-	font-size: 30px;
-
-	text-align: center;
-    font-family: DarkGrey, cursive;
-
-
-}
-
-.Logform
+body
 {
-
-    border-radius: 15px;
-    width: 400px;
-    height: 250px;
-    top: 60px;
-    position: relative;
-    left:37%
-
+    background-color:rgba(169, 169, 169, 0.371);
 }
-
-
-
-.FormContent
-{
-    width: 400px;
-    height: 250px;
-    border-radius: 15px;
-    background-color: peachpuff;
-    position: relative;
-    text-align: center;
-    font-family: DarkGrey, cursive;
-
-}
-
-
-
-.headText
-{
-    padding: 15px;
-    margin: 5px;
-    font-size: 25px;
-}
-
-
-
 .button
 {
-    font-family: DarkGrey, cursive;
-    width: 150px;
-    height: 25px;
-    background-color: DarkGrey;
+    font-family: Snell Roundhand, cursive;
+    width: 250px;
+    height: 30px;
+    background-color: #ffffff;
+    color: #000000;
     border: 0;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 18px;
+
 }
+
+.chdel
+{
+    position: fixed;
+	top: 30%;
+	width: 99%;
+	height: 7vh;
+    min-height: 48px;
+	
+	align-self: center;
+	align-content:  center;
+	background-color: #878787;
+	border: 3px solid #000000;  
+    border-radius: 10px;
+	
+}
+
+
+.frm
+{
+    margin: 10px 0px 0px 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.vvod
+{
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
