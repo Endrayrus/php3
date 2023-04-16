@@ -1,0 +1,91 @@
+header{
+	position: fixed;
+	top: 0;
+
+	
+
+}
+nav{
+	margin-top: 90px;
+	width: 100%;	
+	+background-color: #989898;
+	font-size: 16px;
+	
+}
+
+main{
+	+margin-top: 90px;
+	width: 100%;
+	+background-color: #878787;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	+background-color: #696969;
+	width:100%;
+	height: 90px;
+}
+
+.borda{
+	border: solid orange;
+	width: 100%;
+}
+
+
+.rug{
+	font-size: 30px;
+
+	text-align: center;
+    font-family: DarkGrey, cursive;
+
+
+}
+
+.Logform
+{
+
+    border-radius: 15px;
+    width: 400px;
+    height: 250px;
+    top: 60px;
+    position: relative;
+    left:37%
+
+}
+
+
+
+.FormContent
+{
+    width: 400px;
+    height: 250px;
+    border-radius: 15px;
+    background-color: peachpuff;
+    position: relative;
+    text-align: center;
+    font-family: DarkGrey, cursive;
+
+}
+
+
+
+.headText
+{
+    padding: 15px;
+    margin: 5px;
+    font-size: 25px;
+}
+
+
+
+.button
+{
+    font-family: DarkGrey, cursive;
+    width: 150px;
+    height: 25px;
+    background-color: DarkGrey;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
